@@ -20,7 +20,7 @@
         <version>2.22.2</version>
         <configuration>
           <systemPropertyVariables>
-            <selenide.headless>true</selenide.headless>
+            <selenide.headless>false</selenide.headless>
           </systemPropertyVariables>
         </configuration>
       </plugin>
@@ -29,16 +29,14 @@
   
   <dependencies>
     <dependency>
-      <groupId>io.cucumber</groupId>
+      <groupId>info.cukes</groupId>
       <artifactId>cucumber-java</artifactId>
-      <version>4.8.0</version>
-      <scope>test</scope>
+      <version>1.2.4</version>
     </dependency>
     <dependency>
-      <groupId>io.cucumber</groupId>
-      <artifactId>cucumber-junit</artifactId>
-      <version>4.8.0</version>
-      <scope>test</scope>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
@@ -47,17 +45,21 @@
       <scope>test</scope>
     </dependency>
     <dependency>
+      <groupId>info.cukes</groupId>
+      <artifactId>cucumber-junit</artifactId>
+      <version>1.2.4</version>
+    </dependency>
+    <dependency>
       <groupId>com.codeborne</groupId>
       <artifactId>selenide</artifactId>
       <version>5.4.1</version>
       <scope>test</scope>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
-    <dependency>
-      <groupId>io.github.bonigarcia</groupId>
-      <artifactId>webdrivermanager</artifactId>
-      <version>3.7.1</version>
-    </dependency>
-
+    <!--&lt;!&ndash; https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager &ndash;&gt;-->
+    <!--<dependency>-->
+      <!--<groupId>io.github.bonigarcia</groupId>-->
+      <!--<artifactId>webdrivermanager</artifactId>-->
+      <!--<version>3.7.1</version>-->
+    <!--</dependency>-->
   </dependencies>
 </project>

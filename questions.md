@@ -1,7 +1,8 @@
 ### Technical questions
 
-1. I have spend 2-3 hours. I would add cucumber scenarios, as reporter I would use allure,
-also tried to use tools like Selenoid
+1. I have spend 6+ hours. As test reporter I would use allure,
+also want to add selenoid (selenium-grid) for paralezation of the test and running tests 
+on different environments
 2. I like to use new tools, virtulization and clouds. The more faster development shoud be covered by
 the fast and with great quality tests. You can run a lot of tests using docker and cover diffrent OS and
 browsers. That's stuff are like it. Also interesting in API testing with the contracts (pact)
@@ -13,5 +14,7 @@ the search (of course some of the cafe can pay money to be on the top of the suc
 {
 "id":1,
 "name": "igor",
-"surname": "nosovskyi"
+"surname": "nosovskyi",
+"hobby": ["football","basketball","reading books", "learning new things"],
+"films":["Dark knight","Prestige", "Equilibrium"]
 }
