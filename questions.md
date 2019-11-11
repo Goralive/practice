@@ -1,6 +1,6 @@
 ### Technical questions
 
-1. I have spend 6+ hours. As test reporter I would use allure,
+1. I have spend 3+ hours. As test reporter I would use allure,
 also want to add selenoid (selenium-grid) for paralezation of the test and running tests 
 on different environments
 2. I like to use new tools, virtulization and clouds. The more faster development shoud be covered by
